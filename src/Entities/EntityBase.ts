@@ -1,3 +1,3 @@
 export class EntityBase {
-    Id: number;
-  }
+  Id: number;
+}
