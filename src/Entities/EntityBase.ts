@@ -1,3 +1,3 @@
-export class EntityBase {
+export interface EntityBase {
   Id: number;
 }

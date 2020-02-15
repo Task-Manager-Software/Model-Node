@@ -1,5 +1,9 @@
 import { EntityBase } from "./EntityBase";
+import { AccountProject } from "./AccountProject";
+import { AccountTask } from "./AccountTask";
 
-export class Account extends EntityBase {
-  FullName: string;
+export interface Account extends EntityBase {
+  fullName: string;
+  accountProjects?: AccountProject[];
+  accountTasks?: AccountTask[];
 }
