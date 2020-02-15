@@ -1,6 +1,6 @@
 {
   "name": "@task-manager-software/model-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Task Manager Software - Model Node",
   "repository": "https://github.com/Task-Manager-Software/Model-Node",
   "publishConfig": {
