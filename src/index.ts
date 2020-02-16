@@ -1,12 +1,12 @@
-export { default as EntityBase } from './Entities/EntityBase';
-export { default as AuditableEntityBase } from './Entities/AuditableEntityBase';
+export { default as IEntityBase } from './Entities/IEntityBase';
+export { default as IAuditableEntityBase } from './Entities/IAuditableEntityBase';
 
-export { default as Account } from './Entities/Account';
-export { default as Project } from './Entities/Project';
-export { default as AccountProject } from './Entities/AccountProject';
-export { default as Task } from './Entities/Task';
-export { default as AccountTask } from './Entities/AccountTask';
-export { default as Step } from './Entities/Step';
-export { default as Attachment } from './Entities/Attachment';
+export { default as IAccount } from './Entities/IAccount';
+export { default as IProject } from './Entities/IProject';
+export { default as IAccountProject } from './Entities/IAccountProject';
+export { default as ITask } from './Entities/ITask';
+export { default as IAccountTask } from './Entities/IAccountTask';
+export { default as IStep } from './Entities/IStep';
+export { default as IAttachment } from './Entities/IAttachment';
 
 export { default as RepeatType } from './Enums/RepeatType';

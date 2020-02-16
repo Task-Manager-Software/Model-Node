@@ -1,33 +1,33 @@
-import { EntityBase } from "./EntityBase";
-import { Account } from "./Account";
+import { IEntityBase } from "./IEntityBase";
+import { IAccount } from "./IAccount";
 
-export interface AuditableEntityBase extends EntityBase {
+export interface IAuditableEntityBase extends IEntityBase {
     createdOnUTC: Date;
     
     createdById: number;
-    createdBy: Account;
+    createdBy: IAccount;
     
     modifiedFlag?: boolean;
     lastModifiedOnUTC?: Date;
     
     lastModifiedById?: number;
-    lastModifiedBy?: Account;
+    lastModifiedBy?: IAccount;
     
     archivedFlag?: boolean;
     archivedOnUTC?: Date;
     
     archivedById?: number;
-    archivedBy?: Account;
+    archivedBy?: IAccount;
     
     deletedFlag?: boolean;
     deletedOnUTC?: Date;
     
     deletedById?: number;
-    deletedBy?: Account;
+    deletedBy?: IAccount;
     
     inactiveFlag?: boolean;
     inactiveOnUTC?: Date;
     
     inactiveById?: number;
-    inactiveBy?: Account;
+    inactiveBy?: IAccount;
 }
